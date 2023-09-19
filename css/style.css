@@ -621,7 +621,7 @@ img.bgr {
   justify-content: center;
   align-items: center;
   right: 15px;
-  top: 14px;
+  top: 9px;
 }
 .email-btn::before {
   content: "";
