@@ -699,13 +699,10 @@ img.bgr {
   .idea .style__text {
     min-width: 500px;
   }
-  .featured__column:nth-child(2) {
-    margin-right: 0;
-  }
   .featured__column:nth-child(2n-1) {
     margin-right: 50px;
   }
-  .featured__column:nth-child(1) {
+  .featured__column:not(:last-child) {
     margin-bottom: 30px;
   }
   .review .card__text {
