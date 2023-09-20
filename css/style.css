@@ -95,11 +95,11 @@ h2, h3, h4, h5, h6 {
 }
 @media (max-width: 1760px) {
   [class*=__container] {
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0 10px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   [class*=__container] {
     max-width: 992px;
     padding: 0 10px;
@@ -343,6 +343,12 @@ img.bgr {
 
 .item-benefit {
   padding: 16px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.item-benefit__top {
+  flex: 1 1 auto;
 }
 .item-benefit__icon {
   width: 60px;
@@ -360,6 +366,7 @@ img.bgr {
 }
 .item-benefit__btn {
   color: #F79489;
+  margin-right: auto;
 }
 
 .idea__body {
@@ -527,7 +534,7 @@ img.bgr {
 .card {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 330px;
 }
 .card__content {
   flex: 1 1 auto;
@@ -738,7 +745,7 @@ img.bgr {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1400px) {
   .header__logo {
     margin-right: 100px;
   }
@@ -888,6 +895,12 @@ img.bgr {
   .product__img {
     width: 140px;
     padding-top: 20px;
+  }
+  .review__row {
+    padding-bottom: 100px;
+  }
+  .review .card {
+    height: 490px;
   }
   .review .title-small {
     font-size: 20px;
@@ -1088,6 +1101,9 @@ img.bgr {
   }
   .review .swiper-pagination {
     display: none;
+  }
+  .review .card {
+    height: 200px;
   }
   .review .card__title {
     font-size: 14px;
